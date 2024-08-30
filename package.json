@@ -1,0 +1,44 @@
+{
+  "name": "crypto_api",
+  "version": "1.1.1",
+  "description": "Hundi crypto api",
+  "main": "app.js",
+  "bin": {
+    "create-express": "./bin/createExpress.js"
+  },
+  "private": "true",
+  "scripts": {
+    "start": "npx tsc && nodemon dist/app.js",
+    "build": "npx tsc",
+    "dev": "nodemon app.ts"
+  },
+  "keywords": [
+    "create-express-app",
+    "express-app-template",
+    "create-express-server",
+    "express-server",
+    "express with typescript",
+    "create-express-with-typescript",
+    "Typescript express Server",
+    "express server",
+    "configure express server"
+  ],
+  "author": "JacWang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.9",
+    "concurrently": "^7.5.0",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.4"
+  }
+}
